@@ -1,12 +1,13 @@
 require 'rest-client'
+
 url = "http://localhost:3000/users"
-url2 = "http://localhost:3000/users/new"
-url3 = "http://localhost:3000/users/1/edit"
-url4 = "http://localhost:3000/users/show"
+index = "http://localhost:3000/users"
+new = "http://localhost:3000/users/new"
+show = "http://localhost:3000/users/show"
+edit = "http://localhost:3000/users/:id/edit"
 
-puts RestClient.get(url)
-puts RestClient.get(url2)
-puts RestClient.get(url3)
-puts RestClient.get(url4)
-
+puts RestClient.get(index)
+puts RestClient.get(new)
+puts RestClient.get(show)
+puts RestClient.get(edit)
 puts RestClient.post(url, "")
