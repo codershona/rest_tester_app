@@ -2,7 +2,6 @@
 ## Project: Basic Routes, Views and Controllers and Sending Params with RestClient.
 ## Rest-Client App.
 
-## Builded by Falguni Islam(Software Developer)
 
 Application Skeleton
 
